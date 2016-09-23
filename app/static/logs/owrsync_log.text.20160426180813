@@ -1,0 +1,965 @@
+
+
+
+===================我是华丽分割线================================
+================最新一次更新时间2016-04-22 09:33:50===========================
+内网版本svn信息:
+路径: /data/projectDir/owpro/ow_svn_192/release_s1
+URL: svn://192.168.50.184/p2/H5/program/release/server/ow/release_s1
+版本库根: svn://192.168.50.184/p2
+版本库 UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+版本: 291142
+节点种类: 目录
+调度: 正常
+最后修改的作者: updateOWAdmin
+最后修改的版本: 291142
+最后修改的时间: 2016-04-21 21:23:13 +0800 (四, 2016-04-21)
+更新本地外网游戏服的svn到最新版本
+版本 16539。
+更新内网svn版本为291142
+版本 291142。
+同步内网游戏服 svn到外网svn
+sending incremental file list
+dist/
+dist/ow_game.jar
+resources/xml_db/
+resources/xml_db/BasedbVer.xml
+resources/xml_db/BoxItem.xml
+resources/xml_db/GameRule.xml
+resources/xml_db/Item.xml
+resources/xml_db/MailTemplate.xml
+resources/xml_db/PushContent_10.xml
+resources/xml_db/PushContent_11.xml
+resources/xml_db/PushContent_8.xml
+resources/xml_db/PushContent_9.xml
+resources/xml_db/SelectLang.xml
+resources/xml_db/UnionVitality.xml
+sql/
+sql/bop_update.sql
+sql/ow.sql
+sql/ow_update.sql
+
+sent 4719491 bytes  received 313 bytes  1348515.43 bytes/sec
+total size is 47303561  speedup is 10.02
+开始提交游戏服版本到外网服SVN。
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/PushContent_9.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/PushContent_8.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/PushContent_10.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/PushContent_11.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/sql/ow_update.sql
+A         /data/projectDir/owpro/ow_svn_online/owserver/sql/bop_update.sql
+正在发送       projectDir/owpro/ow_svn_online/owserver/dist/ow_game.jar
+正在发送       projectDir/owpro/ow_svn_online/owserver/resources/xml_db/BasedbVer.xml
+正在发送       projectDir/owpro/ow_svn_online/owserver/resources/xml_db/BoxItem.xml
+正在发送       projectDir/owpro/ow_svn_online/owserver/resources/xml_db/GameRule.xml
+正在发送       projectDir/owpro/ow_svn_online/owserver/resources/xml_db/Item.xml
+正在发送       projectDir/owpro/ow_svn_online/owserver/resources/xml_db/MailTemplate.xml
+增加           projectDir/owpro/ow_svn_online/owserver/resources/xml_db/PushContent_10.xml
+增加           projectDir/owpro/ow_svn_online/owserver/resources/xml_db/PushContent_11.xml
+增加           projectDir/owpro/ow_svn_online/owserver/resources/xml_db/PushContent_8.xml
+增加           projectDir/owpro/ow_svn_online/owserver/resources/xml_db/PushContent_9.xml
+正在发送       projectDir/owpro/ow_svn_online/owserver/resources/xml_db/SelectLang.xml
+正在发送       projectDir/owpro/ow_svn_online/owserver/resources/xml_db/UnionVitality.xml
+增加           projectDir/owpro/ow_svn_online/owserver/sql/bop_update.sql
+正在发送       projectDir/owpro/ow_svn_online/owserver/sql/ow.sql
+增加           projectDir/owpro/ow_svn_online/owserver/sql/ow_update.sql
+传输文件数据...............
+提交后的版本为 16540。
+完成提交游戏服项目的内网SVN版本到外网svn完毕。
+
+
+===================我是华丽分割线================================
+================最新一次更新时间2016-04-22 09:34:54===========================
+内网版本svn信息:
+路径: /data/projectDir/owpro/ow_svn_192/owclient_app
+URL: svn://192.168.50.184/p2/H5/program/release/client_app/global
+版本库根: svn://192.168.50.184/p2
+版本库 UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+版本: 291138
+节点种类: 目录
+调度: 正常
+最后修改的作者: updateOWAdmin
+最后修改的版本: 291138
+最后修改的时间: 2016-04-21 20:59:37 +0800 (四, 2016-04-21)
+更新本地外网app客户端(手机端)的svn到最新版本
+版本 16540。
+更新内网svn版本为291138
+版本 291138。
+同步内网app客户端(手机端) svn到外网svn
+sending incremental file list
+cdn/ow/1_global/ard/
+cdn/ow/1_global/ard/311778.zip
+cdn/ow/1_global/ard/311811.zip
+cdn/ow/1_global/ios/
+cdn/ow/1_global/ios/311778.zip
+cdn/ow/1_global/ios/311811.zip
+res/ow/1_global/ard/
+res/ow/1_global/ard/assets.xml
+res/ow/1_global/ard/version.xml
+res/ow/1_global/ios/
+res/ow/1_global/ios/assets.xml
+res/ow/1_global/ios/version.xml
+
+sent 3990505 bytes  received 191 bytes  2660464.00 bytes/sec
+total size is 253537378  speedup is 63.53
+开始提交app客户端(手机端)版本到外网服SVN。
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ios/311778.zip
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ios/311811.zip
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ard/311778.zip
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ard/311811.zip
+增加 (二进制)  projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ard/311778.zip
+增加 (二进制)  projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ard/311811.zip
+增加 (二进制)  projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ios/311778.zip
+增加 (二进制)  projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ios/311811.zip
+正在发送       projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ard/assets.xml
+正在发送       projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ard/version.xml
+正在发送       projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ios/assets.xml
+正在发送       projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ios/version.xml
+传输文件数据........
+提交后的版本为 16541。
+完成提交app客户端(手机端)项目的内网SVN版本到外网svn完毕。
+
+
+===================我是华丽分割线================================
+================最新一次更新时间2016-04-22 09:35:32===========================
+内网版本svn信息:
+路径: /data/projectDir/owpro/ow_svn_192/owclient_web
+URL: svn://192.168.50.184/p2/H5/program/release/client_web/beta
+版本库根: svn://192.168.50.184/p2
+版本库 UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+版本: 290863
+节点种类: 目录
+调度: 正常
+最后修改的作者: updateOWAdmin
+最后修改的版本: 290796
+最后修改的时间: 2016-04-16 12:44:21 +0800 (六, 2016-04-16)
+更新本地外网web客户端(cdn)的svn到最新版本
+版本 16541。
+更新内网svn版本为291143
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/loginconnect.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/main.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/upload/upload_icon.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/union/union_battle.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/union/union_digtrove.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/union/union_common.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/union/union_trove_map.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/charge/gift_effect.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/newerguide/newerguide.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/loading/loadingBg.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/game_common.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/chat/chatui.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/main/Power_Shine.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/main/menu_top.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/main/menu_bottom.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/main/player_hero.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/main/notice_bar_v.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/main/menu_left.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_famuchang41.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_dashiguan.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta10.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gonggaolan.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_nongtian21.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_tidufu1.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_tidufu2.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_tidufu3.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_tidufu4.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_tidufu5.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_huangjiakexueyuan.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_matou.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_renyudiaoxiang.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_tidufu6.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_tidufu7.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_huodongzhongxin.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_zhishipai.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_famuchang11.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu1.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_maoyichuan.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu2.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu3.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu4.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_famuchang51.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_tiejiangpu.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu5.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu6.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_maoyisuo.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_cangku.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_junxuzhan1.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng1.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng2.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng3.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng4.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng5.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng6.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_nongtian31.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng7.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_zhanzhengdating.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng8.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_dengta2.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng9.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_yaosaiqixiechang.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_famuchang21.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chengmeng10.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_jiuguan.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_weixiuchuanwu.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_chuanjiajiuguan.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_mofang.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_nongtian41.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta1.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta2.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta3.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta4.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta5.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta6.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu1.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta7.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu2.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta8.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu3.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_famuchang31.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_ta9.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu4.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_huweijianchuanwu1.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_huweijianchuanwu2.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu6.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_huweijianchuanwu3.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_dengta.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_huweijianchuanwu5.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_huweijianchuanwu6.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_zhanshendian.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_daxingganchuanwu1.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_daxingganchuanwu2.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_shenshu.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_daxingganchuanwu3.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_nongtian11.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_daxingganchuanwu4.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_daxingganchuanwu5.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_daxingganchuanwu6.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_nongtian51.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_yejingongfang.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_yetiegongfang.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/build/zhu_heishichuan.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/main_city_dragon.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/main_city_weather.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/main_city.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/effect/main_city_sea_wave.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/effect/city_falls.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/effect/city_fire.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/unionBattle/lian_baozang1.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/unionBattle/lian_baozang2.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/unionBattle/lian_baozang3.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/unionBattle/lian_baozang1_1.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/unionBattle/lian_baozang2_1.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/unionBattle/lian_baozang3_1.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/map/elements/unionBuilding/lian_baozang1.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/map/elements/unionBuilding/lian_baozang2.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/map/elements/unionBuilding/lian_baozang3.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/cn/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/cn/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/cn/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/cn/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ar/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ar/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ar/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ar/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/en/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/en/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/en/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/en/basedb.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/fight.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/characterfilter.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/language.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/resmark.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/rolecreate.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/prelanguage.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/basedb.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/fight.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/characterfilter.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/language.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/resmark.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/rolecreate.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/prelanguage.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ru/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ru/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ru/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ru/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/fr/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/fr/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/fr/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/fr/basedb.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/fight.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/characterfilter.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/language.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/resmark.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/rolecreate.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/prelanguage.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tw/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tw/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tw/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tw/basedb.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/fight.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/characterfilter.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/language.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/resmark.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/rolecreate.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/prelanguage.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/id/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/id/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/id/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/id/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/game_version.xml
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/CreateRoleWin.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/index.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/js/pay.js
+更新到版本 291143。
+同步内网web客户端(cdn) svn到外网svn
+sending incremental file list
+./
+CreateRoleWin.swf
+index.swf
+loginconnect.swf
+main.swf
+gamexml/
+gamexml/game_version.xml
+gamexml/ar/
+gamexml/ar/basedb.swf
+gamexml/ar/language.swf
+gamexml/ar/prelanguage.swf
+gamexml/ar/resmark.swf
+gamexml/cn/
+gamexml/cn/basedb.swf
+gamexml/cn/language.swf
+gamexml/cn/prelanguage.swf
+gamexml/cn/resmark.swf
+gamexml/de/
+gamexml/de/basedb.swf
+gamexml/de/characterfilter.swf
+gamexml/de/fight.swf
+gamexml/de/language.swf
+gamexml/de/prelanguage.swf
+gamexml/de/resmark.swf
+gamexml/de/rolecreate.swf
+gamexml/en/
+gamexml/en/basedb.swf
+gamexml/en/language.swf
+gamexml/en/prelanguage.swf
+gamexml/en/resmark.swf
+gamexml/fr/
+gamexml/fr/basedb.swf
+gamexml/fr/language.swf
+gamexml/fr/prelanguage.swf
+gamexml/fr/resmark.swf
+gamexml/id/
+gamexml/id/basedb.swf
+gamexml/id/language.swf
+gamexml/id/prelanguage.swf
+gamexml/id/resmark.swf
+gamexml/pt/
+gamexml/pt/basedb.swf
+gamexml/pt/characterfilter.swf
+gamexml/pt/fight.swf
+gamexml/pt/language.swf
+gamexml/pt/prelanguage.swf
+gamexml/pt/resmark.swf
+gamexml/pt/rolecreate.swf
+gamexml/ru/
+gamexml/ru/basedb.swf
+gamexml/ru/language.swf
+gamexml/ru/prelanguage.swf
+gamexml/ru/resmark.swf
+gamexml/th/
+gamexml/th/basedb.swf
+gamexml/th/characterfilter.swf
+gamexml/th/fight.swf
+gamexml/th/language.swf
+gamexml/th/prelanguage.swf
+gamexml/th/resmark.swf
+gamexml/th/rolecreate.swf
+gamexml/tr/
+gamexml/tr/basedb.swf
+gamexml/tr/characterfilter.swf
+gamexml/tr/fight.swf
+gamexml/tr/language.swf
+gamexml/tr/prelanguage.swf
+gamexml/tr/resmark.swf
+gamexml/tr/rolecreate.swf
+gamexml/tw/
+gamexml/tw/basedb.swf
+gamexml/tw/language.swf
+gamexml/tw/prelanguage.swf
+gamexml/tw/resmark.swf
+js/
+js/pay.js
+resource/cn/image/unionBattle/
+resource/cn/image/unionBattle/lian_baozang1.png
+resource/cn/image/unionBattle/lian_baozang1_1.png
+resource/cn/image/unionBattle/lian_baozang2.png
+resource/cn/image/unionBattle/lian_baozang2_1.png
+resource/cn/image/unionBattle/lian_baozang3.png
+resource/cn/image/unionBattle/lian_baozang3_1.png
+resource/cn/map/elements/unionBuilding/
+resource/cn/map/elements/unionBuilding/lian_baozang1.png
+resource/cn/map/elements/unionBuilding/lian_baozang2.png
+resource/cn/map/elements/unionBuilding/lian_baozang3.png
+resource/cn/swf/
+resource/cn/swf/game_common.swf
+resource/cn/swf/charge/
+resource/cn/swf/charge/gift_effect.swf
+resource/cn/swf/chat/
+resource/cn/swf/chat/chatui.swf
+resource/cn/swf/loading/
+resource/cn/swf/loading/loadingBg.swf
+resource/cn/swf/main/
+resource/cn/swf/main/Power_Shine.swf
+resource/cn/swf/main/menu_bottom.swf
+resource/cn/swf/main/menu_left.swf
+resource/cn/swf/main/menu_top.swf
+resource/cn/swf/main/notice_bar_v.swf
+resource/cn/swf/main/player_hero.swf
+resource/cn/swf/maincity/
+resource/cn/swf/maincity/main_city.swf
+resource/cn/swf/maincity/main_city_dragon.swf
+resource/cn/swf/maincity/main_city_weather.swf
+resource/cn/swf/maincity/build/
+resource/cn/swf/maincity/build/zhu_cangku.swf
+resource/cn/swf/maincity/build/zhu_chengmeng1.swf
+resource/cn/swf/maincity/build/zhu_chengmeng10.swf
+resource/cn/swf/maincity/build/zhu_chengmeng2.swf
+resource/cn/swf/maincity/build/zhu_chengmeng3.swf
+resource/cn/swf/maincity/build/zhu_chengmeng4.swf
+resource/cn/swf/maincity/build/zhu_chengmeng5.swf
+resource/cn/swf/maincity/build/zhu_chengmeng6.swf
+resource/cn/swf/maincity/build/zhu_chengmeng7.swf
+resource/cn/swf/maincity/build/zhu_chengmeng8.swf
+resource/cn/swf/maincity/build/zhu_chengmeng9.swf
+resource/cn/swf/maincity/build/zhu_chuanjiajiuguan.swf
+resource/cn/swf/maincity/build/zhu_dashiguan.swf
+resource/cn/swf/maincity/build/zhu_daxingganchuanwu1.swf
+resource/cn/swf/maincity/build/zhu_daxingganchuanwu2.swf
+resource/cn/swf/maincity/build/zhu_daxingganchuanwu3.swf
+resource/cn/swf/maincity/build/zhu_daxingganchuanwu4.swf
+resource/cn/swf/maincity/build/zhu_daxingganchuanwu5.swf
+resource/cn/swf/maincity/build/zhu_daxingganchuanwu6.swf
+resource/cn/swf/maincity/build/zhu_dengta.swf
+resource/cn/swf/maincity/build/zhu_dengta2.swf
+resource/cn/swf/maincity/build/zhu_famuchang11.swf
+resource/cn/swf/maincity/build/zhu_famuchang21.swf
+resource/cn/swf/maincity/build/zhu_famuchang31.swf
+resource/cn/swf/maincity/build/zhu_famuchang41.swf
+resource/cn/swf/maincity/build/zhu_famuchang51.swf
+resource/cn/swf/maincity/build/zhu_gaosujianchuanwu1.swf
+resource/cn/swf/maincity/build/zhu_gaosujianchuanwu2.swf
+resource/cn/swf/maincity/build/zhu_gaosujianchuanwu3.swf
+resource/cn/swf/maincity/build/zhu_gaosujianchuanwu4.swf
+resource/cn/swf/maincity/build/zhu_gaosujianchuanwu5.swf
+resource/cn/swf/maincity/build/zhu_gaosujianchuanwu6.swf
+resource/cn/swf/maincity/build/zhu_gonggaolan.swf
+resource/cn/swf/maincity/build/zhu_gongjijianchuanwu1.swf
+resource/cn/swf/maincity/build/zhu_gongjijianchuanwu2.swf
+resource/cn/swf/maincity/build/zhu_gongjijianchuanwu3.swf
+resource/cn/swf/maincity/build/zhu_gongjijianchuanwu4.swf
+resource/cn/swf/maincity/build/zhu_gongjijianchuanwu6.swf
+resource/cn/swf/maincity/build/zhu_heishichuan.swf
+resource/cn/swf/maincity/build/zhu_huangjiakexueyuan.swf
+resource/cn/swf/maincity/build/zhu_huodongzhongxin.swf
+resource/cn/swf/maincity/build/zhu_huweijianchuanwu1.swf
+resource/cn/swf/maincity/build/zhu_huweijianchuanwu2.swf
+resource/cn/swf/maincity/build/zhu_huweijianchuanwu3.swf
+resource/cn/swf/maincity/build/zhu_huweijianchuanwu5.swf
+resource/cn/swf/maincity/build/zhu_huweijianchuanwu6.swf
+resource/cn/swf/maincity/build/zhu_jiuguan.swf
+resource/cn/swf/maincity/build/zhu_junxuzhan1.swf
+resource/cn/swf/maincity/build/zhu_maoyichuan.swf
+resource/cn/swf/maincity/build/zhu_maoyisuo.swf
+resource/cn/swf/maincity/build/zhu_matou.swf
+resource/cn/swf/maincity/build/zhu_mofang.swf
+resource/cn/swf/maincity/build/zhu_nongtian11.swf
+resource/cn/swf/maincity/build/zhu_nongtian21.swf
+resource/cn/swf/maincity/build/zhu_nongtian31.swf
+resource/cn/swf/maincity/build/zhu_nongtian41.swf
+resource/cn/swf/maincity/build/zhu_nongtian51.swf
+resource/cn/swf/maincity/build/zhu_renyudiaoxiang.swf
+resource/cn/swf/maincity/build/zhu_shenshu.swf
+resource/cn/swf/maincity/build/zhu_ta1.swf
+resource/cn/swf/maincity/build/zhu_ta10.swf
+resource/cn/swf/maincity/build/zhu_ta2.swf
+resource/cn/swf/maincity/build/zhu_ta3.swf
+resource/cn/swf/maincity/build/zhu_ta4.swf
+resource/cn/swf/maincity/build/zhu_ta5.swf
+resource/cn/swf/maincity/build/zhu_ta6.swf
+resource/cn/swf/maincity/build/zhu_ta7.swf
+resource/cn/swf/maincity/build/zhu_ta8.swf
+resource/cn/swf/maincity/build/zhu_ta9.swf
+resource/cn/swf/maincity/build/zhu_tidufu1.swf
+resource/cn/swf/maincity/build/zhu_tidufu2.swf
+resource/cn/swf/maincity/build/zhu_tidufu3.swf
+resource/cn/swf/maincity/build/zhu_tidufu4.swf
+resource/cn/swf/maincity/build/zhu_tidufu5.swf
+resource/cn/swf/maincity/build/zhu_tidufu6.swf
+resource/cn/swf/maincity/build/zhu_tidufu7.swf
+resource/cn/swf/maincity/build/zhu_tiejiangpu.swf
+resource/cn/swf/maincity/build/zhu_weixiuchuanwu.swf
+resource/cn/swf/maincity/build/zhu_yaosaiqixiechang.swf
+resource/cn/swf/maincity/build/zhu_yejingongfang.swf
+resource/cn/swf/maincity/build/zhu_yetiegongfang.swf
+resource/cn/swf/maincity/build/zhu_zhanshendian.swf
+resource/cn/swf/maincity/build/zhu_zhanzhengdating.swf
+resource/cn/swf/maincity/build/zhu_zhishipai.swf
+resource/cn/swf/maincity/effect/
+resource/cn/swf/maincity/effect/city_falls.swf
+resource/cn/swf/maincity/effect/city_fire.swf
+resource/cn/swf/maincity/effect/main_city_sea_wave.swf
+resource/cn/swf/newerguide/
+resource/cn/swf/newerguide/newerguide.swf
+resource/cn/swf/union/
+resource/cn/swf/union/union_battle.swf
+resource/cn/swf/union/union_common.swf
+resource/cn/swf/union/union_digtrove.swf
+resource/cn/swf/union/union_trove_map.swf
+resource/cn/swf/upload/
+resource/cn/swf/upload/upload_icon.swf
+
+sent 24104682 bytes  received 3704 bytes  1662647.31 bytes/sec
+total size is 132320490  speedup is 5.49
+开始提交web客户端(cdn)版本到外网服SVN。
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/union/union_trove_map.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/union/union_digtrove.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/map/elements/unionBuilding/lian_baozang3.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/map/elements/unionBuilding/lian_baozang2.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/map/elements/unionBuilding/lian_baozang1.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang3.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang2_1.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang2.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang3_1.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang1.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang1_1.png
+A         /data/projectDir/owpro/ow_svn_online/owweb/gamexml/pt
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/pt/basedb.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/pt/prelanguage.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/pt/fight.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/pt/rolecreate.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/pt/resmark.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/pt/characterfilter.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/pt/language.swf
+A         /data/projectDir/owpro/ow_svn_online/owweb/gamexml/tr
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/tr/basedb.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/tr/prelanguage.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/tr/fight.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/tr/rolecreate.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/tr/resmark.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/tr/characterfilter.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/tr/language.swf
+A         /data/projectDir/owpro/ow_svn_online/owweb/gamexml/de
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/de/basedb.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/de/prelanguage.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/de/fight.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/de/rolecreate.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/de/resmark.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/de/characterfilter.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/de/language.swf
+A         /data/projectDir/owpro/ow_svn_online/owweb/gamexml/th
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/th/basedb.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/th/prelanguage.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/th/fight.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/th/rolecreate.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/th/resmark.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/th/characterfilter.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/gamexml/th/language.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/CreateRoleWin.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/ar/basedb.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/ar/language.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/ar/prelanguage.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/ar/resmark.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/cn/basedb.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/cn/language.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/cn/prelanguage.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/cn/resmark.swf
+增加           projectDir/owpro/ow_svn_online/owweb/gamexml/de
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/de/basedb.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/de/characterfilter.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/de/fight.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/de/language.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/de/prelanguage.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/de/resmark.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/de/rolecreate.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/en/basedb.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/en/language.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/en/prelanguage.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/en/resmark.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/fr/basedb.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/fr/language.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/fr/prelanguage.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/fr/resmark.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/game_version.xml
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/id/basedb.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/id/language.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/id/prelanguage.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/id/resmark.swf
+增加           projectDir/owpro/ow_svn_online/owweb/gamexml/pt
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/pt/basedb.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/pt/characterfilter.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/pt/fight.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/pt/language.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/pt/prelanguage.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/pt/resmark.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/pt/rolecreate.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/ru/basedb.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/ru/language.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/ru/prelanguage.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/ru/resmark.swf
+增加           projectDir/owpro/ow_svn_online/owweb/gamexml/th
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/th/basedb.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/th/characterfilter.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/th/fight.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/th/language.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/th/prelanguage.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/th/resmark.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/th/rolecreate.swf
+增加           projectDir/owpro/ow_svn_online/owweb/gamexml/tr
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/tr/basedb.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/tr/characterfilter.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/tr/fight.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/tr/language.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/tr/prelanguage.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/tr/resmark.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/gamexml/tr/rolecreate.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/tw/basedb.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/tw/language.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/tw/prelanguage.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/gamexml/tw/resmark.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/index.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/js/pay.js
+正在发送       projectDir/owpro/ow_svn_online/owweb/loginconnect.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/main.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang1.png
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang1_1.png
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang2.png
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang2_1.png
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang3.png
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/unionBattle/lian_baozang3_1.png
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/map/elements/unionBuilding/lian_baozang1.png
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/map/elements/unionBuilding/lian_baozang2.png
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/map/elements/unionBuilding/lian_baozang3.png
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/charge/gift_effect.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/chat/chatui.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/game_common.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/loading/loadingBg.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/main/Power_Shine.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/main/menu_bottom.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/main/menu_left.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/main/menu_top.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/main/notice_bar_v.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/main/player_hero.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_cangku.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng1.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng10.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng2.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng3.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng4.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng5.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng6.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng7.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng8.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chengmeng9.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_chuanjiajiuguan.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_dashiguan.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_daxingganchuanwu1.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_daxingganchuanwu2.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_daxingganchuanwu3.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_daxingganchuanwu4.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_daxingganchuanwu5.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_daxingganchuanwu6.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_dengta.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_dengta2.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_famuchang11.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_famuchang21.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_famuchang31.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_famuchang41.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_famuchang51.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu1.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu2.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu3.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu4.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu5.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gaosujianchuanwu6.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gonggaolan.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu1.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu2.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu3.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu4.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_gongjijianchuanwu6.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_heishichuan.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_huangjiakexueyuan.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_huodongzhongxin.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_huweijianchuanwu1.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_huweijianchuanwu2.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_huweijianchuanwu3.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_huweijianchuanwu5.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_huweijianchuanwu6.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_jiuguan.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_junxuzhan1.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_maoyichuan.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_maoyisuo.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_matou.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_mofang.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_nongtian11.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_nongtian21.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_nongtian31.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_nongtian41.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_nongtian51.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_renyudiaoxiang.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_shenshu.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta1.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta10.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta2.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta3.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta4.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta5.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta6.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta7.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta8.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_ta9.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_tidufu1.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_tidufu2.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_tidufu3.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_tidufu4.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_tidufu5.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_tidufu6.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_tidufu7.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_tiejiangpu.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_weixiuchuanwu.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_yaosaiqixiechang.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_yejingongfang.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_yetiegongfang.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_zhanshendian.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_zhanzhengdating.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/build/zhu_zhishipai.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/effect/city_falls.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/effect/city_fire.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/effect/main_city_sea_wave.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/main_city.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/main_city_dragon.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/main_city_weather.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/newerguide/newerguide.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/union/union_battle.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/union/union_common.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/union/union_digtrove.swf
+增加 (二进制)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/union/union_trove_map.swf
+正在发送       projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/upload/upload_icon.swf
+传输文件数据.................................................................................................................................................................................
+提交后的版本为 16543。
+完成提交web客户端(cdn)项目的内网SVN版本到外网svn完毕。
+
+
+===================我是华丽分割线================================
+================最新一次更新时间2016-04-26 17:05:46===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/owclient_web
+URL: svn://192.168.50.184/p2/H5/program/release/client_web/beta
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291143
+Node Kind: directory
+Schedule: normal
+Last Changed Author: cuipeihui
+Last Changed Rev: 291143
+Last Changed Date: 2016-04-21 21:38:58 +0800 (Thu, 21 Apr 2016)
+更新本地外网web客户端(cdn)的svn到最新版本
+U    /data/projectDir/owpro/ow_svn_online/owweb/loginconnect.swf
+U    /data/projectDir/owpro/ow_svn_online/owweb/main.swf
+U    /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/main/player_hero.swf
+U    /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/mail/mail.swf
+U    /data/projectDir/owpro/ow_svn_online/owweb/gamexml/game_version.xml
+U    /data/projectDir/owpro/ow_svn_online/owweb/CreateRoleWin.swf
+U    /data/projectDir/owpro/ow_svn_online/owweb/index.swf
+Updated to revision 16581.
+更新内网svn版本为291373
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/loginconnect.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/main.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/mail/mail.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/main/player_hero.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/game_version.xml
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/CreateRoleWin.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/index.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/js/pay.js
+Updated to revision 291373.
+同步内网web客户端(cdn) svn到外网svn
+/data/projectDir/owpro/ow_svn_192/owclient_web/,/data/projectDir/owpro/ow_svn_online/owweb/
+sending incremental file list
+rsync: opendir "/data/projectDir/owpro/ow_svn_192/owclient_web/." failed: Permission denied (13)
+./
+rsync: failed to set times on "/data/projectDir/owpro/ow_svn_online/owweb/.": Permission denied (13)
+rsync: opendir "/data/projectDir/owpro/ow_svn_online/owweb/." failed: Permission denied (13)
+
+sent 29 bytes  received 15 bytes  88.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1039) [sender=3.0.6]
+开始提交web客户端(cdn)版本到外网服SVN。
+
+完成提交web客户端(cdn)项目的内网SVN版本到外网svn完毕。
+
+
+===================我是华丽分割线================================
+================最新一次更新时间2016-04-26 17:13:20===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/owclient_web
+URL: svn://192.168.50.184/p2/H5/program/release/client_web/beta
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291373
+Node Kind: directory
+Schedule: normal
+Last Changed Author: cuipeihui
+Last Changed Rev: 291373
+Last Changed Date: 2016-04-25 18:03:11 +0800 (Mon, 25 Apr 2016)
+更新本地外网web客户端(cdn)的svn到最新版本
+At revision 16581.
+更新内网svn版本为291373
+At revision 291373.
+同步内网web客户端(cdn) svn到外网svn
+/data/projectDir/owpro/ow_svn_192/owclient_web/,/data/projectDir/owpro/ow_svn_online/owweb/
+<open file 'w -h', mode 'r' at 0x7f11fd4bf390>
+<open file 'w -u', mode 'r' at 0x7f11fd4bf390>
+<open file 'who', mode 'r' at 0x7f11fd4bf390>
+0
+sending incremental file list
+rsync: opendir "/data/projectDir/owpro/ow_svn_192/owclient_web/." failed: Permission denied (13)
+./
+rsync: failed to set times on "/data/projectDir/owpro/ow_svn_online/owweb/.": Permission denied (13)
+rsync: opendir "/data/projectDir/owpro/ow_svn_online/owweb/." failed: Permission denied (13)
+
+sent 29 bytes  received 15 bytes  88.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1039) [sender=3.0.6]
+开始提交web客户端(cdn)版本到外网服SVN。
+
+完成提交web客户端(cdn)项目的内网SVN版本到外网svn完毕。
+
+
+===================我是华丽分割线================================
+================最新一次更新时间2016-04-26 17:15:26===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/owclient_web
+URL: svn://192.168.50.184/p2/H5/program/release/client_web/beta
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291373
+Node Kind: directory
+Schedule: normal
+Last Changed Author: cuipeihui
+Last Changed Rev: 291373
+Last Changed Date: 2016-04-25 18:03:11 +0800 (Mon, 25 Apr 2016)
+更新本地外网web客户端(cdn)的svn到最新版本
+At revision 16581.
+更新内网svn版本为291373
+At revision 291373.
+同步内网web客户端(cdn) svn到外网svn
+/data/projectDir/owpro/ow_svn_192/owclient_web/,/data/projectDir/owpro/ow_svn_online/owweb/
+<open file 'w -h', mode 'r' at 0x7fb2eedf4390>
+<open file 'w -u', mode 'r' at 0x7fb2eedf4390>
+<open file 'who', mode 'r' at 0x7fb2eedf4390>
+print os.getuid():0
+sending incremental file list
+rsync: opendir "/data/projectDir/owpro/ow_svn_192/owclient_web/." failed: Permission denied (13)
+./
+rsync: failed to set times on "/data/projectDir/owpro/ow_svn_online/owweb/.": Permission denied (13)
+rsync: opendir "/data/projectDir/owpro/ow_svn_online/owweb/." failed: Permission denied (13)
+
+sent 29 bytes  received 15 bytes  88.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1039) [sender=3.0.6]
+开始提交web客户端(cdn)版本到外网服SVN。
+
+完成提交web客户端(cdn)项目的内网SVN版本到外网svn完毕。
+
+
+===================我是华丽分割线================================
+================最新一次更新时间2016-04-26 17:23:18===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/owclient_web
+URL: svn://192.168.50.184/p2/H5/program/release/client_web/beta
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291373
+Node Kind: directory
+Schedule: normal
+Last Changed Author: cuipeihui
+Last Changed Rev: 291373
+Last Changed Date: 2016-04-25 18:03:11 +0800 (Mon, 25 Apr 2016)
+更新本地外网web客户端(cdn)的svn到最新版本
+At revision 16581.
+更新内网svn版本为291373
+At revision 291373.
+同步内网web客户端(cdn) svn到外网svn
+/data/projectDir/owpro/ow_svn_192/owclient_web/,/data/projectDir/owpro/ow_svn_online/owweb/
+<open file 'w -h', mode 'r' at 0x7f3e331ad4b0>
+<open file 'w -u', mode 'r' at 0x7f3e331ad4b0>
+<open file 'who', mode 'r' at 0x7f3e331ad4b0>
+print os.getuid():0
+sending incremental file list
+rsync: opendir "/data/projectDir/owpro/ow_svn_192/owclient_web/." failed: Permission denied (13)
+./
+rsync: failed to set times on "/data/projectDir/owpro/ow_svn_online/owweb/.": Permission denied (13)
+rsync: opendir "/data/projectDir/owpro/ow_svn_online/owweb/." failed: Permission denied (13)
+
+sent 29 bytes  received 15 bytes  88.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1039) [sender=3.0.6]
+开始提交web客户端(cdn)版本到外网服SVN。
+
+完成提交web客户端(cdn)项目的内网SVN版本到外网svn完毕。
+
+
+===================我是华丽分割线================================
+================最新一次更新时间2016-04-26 17:31:02===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/owclient_web
+URL: svn://192.168.50.184/p2/H5/program/release/client_web/beta
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291373
+Node Kind: directory
+Schedule: normal
+Last Changed Author: cuipeihui
+Last Changed Rev: 291373
+Last Changed Date: 2016-04-25 18:03:11 +0800 (Mon, 25 Apr 2016)
+更新本地外网web客户端(cdn)的svn到最新版本
+At revision 16582.
+更新内网svn版本为291373
+At revision 291373.
+同步内网web客户端(cdn) svn到外网svn
+/data/projectDir/owpro/ow_svn_192/owclient_web/,/data/projectDir/owpro/ow_svn_online/owweb/
+<open file 'w -h', mode 'r' at 0x7f3e331ae420>
+<open file 'w -u', mode 'r' at 0x7f3e331ae420>
+<open file 'who', mode 'r' at 0x7f3e331ae420>
+print os.getuid():0
+sending incremental file list
+./
+CreateRoleWin.swf
+index.swf
+loginconnect.swf
+main.swf
+gamexml/
+gamexml/game_version.xml
+gamexml/de/
+gamexml/pt/
+gamexml/th/
+gamexml/tr/
+js/
+js/pay.js
+resource/cn/swf/mail/
+resource/cn/swf/mail/mail.swf
+resource/cn/swf/main/
+resource/cn/swf/main/player_hero.swf
+
+sent 2797815 bytes  received 437 bytes  1119300.80 bytes/sec
+total size is 132324800  speedup is 47.29
+开始提交web客户端(cdn)版本到外网服SVN。
+
+完成提交web客户端(cdn)项目的内网SVN版本到外网svn完毕。

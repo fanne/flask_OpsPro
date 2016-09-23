@@ -1,0 +1,37 @@
+
+执行操作时间：20160606100611
+补丁文件：GetMapInfo001.class
+补丁生产服务器上路径：/tmp/GetMapInfo001.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/GetMapInfo001.class
+执行的命令：ansible -i /etc/ansible/hosttemp selecthost -m shell -a "/data/owinit/owServer 8001 patch patch.EquipPatch /tmp/GetMapInfo001.class"
+ow_3 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+ow_5 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+ow_6 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+ow_4 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+ow_7 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+ow_1 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+执行打补丁完成~~

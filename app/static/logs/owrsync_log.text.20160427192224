@@ -1,0 +1,27 @@
+
+===================我是华丽分割线================================
+================最新一次更新时间20160426180551===========================
+内网版本svn信息:
+路径: /data/projectDir/owpro/ow_svn_192/owclient_web
+URL: svn://192.168.50.184/p2/H5/program/release/client_web/beta
+版本库根: svn://192.168.50.184/p2
+版本库 UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+版本: 291373
+节点种类: 目录
+调度: 正常
+最后修改的作者: cuipeihui
+最后修改的版本: 291373
+最后修改的时间: 2016-04-25 18:03:11 +0800 (一, 2016-04-25)
+更新本地外网web客户端(cdn)的svn到最新版本
+版本 16582。
+更新内网svn版本为291373
+版本 291373。
+同步内网web客户端(cdn) svn到外网svn
+/data/projectDir/owpro/ow_svn_192/owclient_web/,/data/projectDir/owpro/ow_svn_online/owweb/
+sending incremental file list
+
+sent 61572 bytes  received 256 bytes  123656.00 bytes/sec
+total size is 132324800  speedup is 2140.21
+开始提交web客户端(cdn)版本到外网服SVN。
+
+完成提交web客户端(cdn)项目的内网SVN版本到外网svn完毕。

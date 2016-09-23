@@ -1,0 +1,73 @@
+
+===================我是华丽分割线================================
+================最新一次更新时间20160509100656===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/owfbinv
+URL: svn://192.168.50.184/p2/H5/program/release/server/ow/release_fb
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 292077
+Node Kind: directory
+Schedule: normal
+Last Changed Author: updateOWAdmin
+Last Changed Rev: 291960
+Last Changed Date: 2016-05-05 18:21:36 +0800 (Thu, 05 May 2016)
+更新本地外网facebook好友服的svn到最新版本
+At revision 16771.
+更新内网svn版本为291960
+At revision 291960.
+同步内网facebook好友服 svn到外网svn
+/data/projectDir/owpro/ow_svn_192/owfbinv/,/data/projectDir/owpro/ow_svn_online/owfbinv/
+sending incremental file list
+./
+dist/
+dist/fb_graph.jar
+lib/
+lib/aopalliance-1.0.jar
+lib/aspectjrt-1.6.11.jar
+lib/aspectjweaver-1.6.11.jar
+lib/commons-beanutils-1.9.2.jar
+lib/commons-codec-1.6.jar
+lib/commons-collections-3.2.1.jar
+lib/commons-lang3-3.3.2.jar
+lib/commons-logging-1.1.1.jar
+lib/commons-pool2-2.3.jar
+lib/concurrentlinkedhashmap-lru-1.4.2.jar
+lib/httpclient-4.2.1.jar
+lib/httpclient-cache-4.2.1.jar
+lib/httpcore-4.2.1.jar
+lib/jackson-annotations-2.5.3.jar
+lib/jackson-core-2.5.3.jar
+lib/jackson-databind-2.5.3.jar
+lib/javassist-3.12.1.GA.jar
+lib/jedis-2.8.0.jar
+lib/junit-4.8.2.jar
+lib/log4j-1.2.16.jar
+lib/mina-core-2.0.9.jar
+lib/mvel2-2.2.5.Final.jar
+lib/netty-all-4.0.32.Final.jar
+lib/rhino-1.7.7.jar
+lib/slf4j-api-1.6.1.jar
+lib/slf4j-log4j12-1.6.1.jar
+lib/spring-aop-3.0.6.RELEASE.jar
+lib/spring-asm-3.0.6.RELEASE.jar
+lib/spring-beans-3.0.6.RELEASE.jar
+lib/spring-context-3.0.6.RELEASE.jar
+lib/spring-core-3.0.6.RELEASE.jar
+lib/spring-expression-3.0.6.RELEASE.jar
+lib/spring-jdbc-3.0.6.RELEASE.jar
+lib/spring-orm-3.0.6.RELEASE.jar
+lib/spring-test-3.0.6.RELEASE.jar
+lib/spring-tx-3.0.6.RELEASE.jar
+resources/
+resources/ServerCfg.properties
+resources/ServerCfg.xml
+resources/applicationContext.xml
+resources/configuration.xml
+resources/log4j.properties
+
+sent 14693107 bytes  received 825 bytes  1728697.88 bytes/sec
+total size is 16262903  speedup is 1.11
+开始提交facebook好友服版本到外网服SVN。
+
+完成提交facebook好友服项目的内网SVN版本到外网svn完毕。

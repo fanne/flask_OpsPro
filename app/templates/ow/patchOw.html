@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% from "_formhelpers.html" import render_field %}
+
+{% block title %}
+    ow patch
+{% endblock %}
+
+
+{% block content %}
+<div class="container" style="margin-top: 40px">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+            {% for messages in get_flashed_messages() %}
+                <div class="alert alert-warning">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                       {{ messages }}
+                </div>
+            {% endfor %}
+
+            <h2 class="col-md-offset-2">OwServer打补丁操作</h2><br>
+            <form  method="POST" onsubmit="return patchConfirm();">
+                <label for="name">选服进行打补丁</label>
+                    <div class="form-group">
+                        <div id="list">
+                            {% for server in serverlists %}
+                            <label class="checkbox-inline">
+                                <input type="checkbox" name="dbcheckbox"
+                                       id="{{ server.serverId }}"
+                                       value="{{ server.serverId }}">
+                                {{ server.serverName }}
+                            </label>
+                            {% if  loop.index%10 ==0 %}
+                                <br>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    <br>
+                    <input type="checkbox" id="all">
+                    <input type="button" value="全选" class="btn" id="selectAll">
+                    <input type="button" value="全不选" class="btn" id="unSelect">
+                    <input type="button" value="反选" class="btn" id="reverse">
+                    <input type="button" value="获得选中的所有值" class="btn" id="getValue">
+                    </div>
+
+                <div class="form-group" style="margin-top: 40px">
+                    {{ patchform.hidden_tag() }}
+                    {{ render_field(patchform.patchcommand,class="form-control",placeholder="Patch Command",id="cmdpatch") }}
+                </div>
+            <input class="btn btn-default" type="submit" value=" 提交 " />
+{#                <button type="submit" class="btn btn-default" id="patchValue">Submit</button>#}
+            </form>
+
+            <br>
+
+            <div>
+                <form action="upload" method="POST" enctype="multipart/form-data" id="uploadForm">
+                    <input type="file" name="file"><br />
+                    <input type="submit" value="Upload">
+                </form>
+            </div>
+
+        <br>
+        <div>
+            <p style="color: red" >最新上传的补丁文件：</p>
+            <p style="color: red" id="patchfile">{{ patchfile }}</p>
+        </div>
+
+
+        <div style="margin-top: 40px">
+            <a href="{{ url_for('static',filename='logs/owpatch_log.text',_external=True) }}" target="_blank"><h2>查看执行日志</h2></a>
+        </div>
+        <div style="margin-top: 20px">
+            <p style="color: deeppink">注：关于Patch Command 填写内容</p>
+            <p>正常补丁完整命令为:/data/owinit/owServer 8001 patch com.my9yu.h5game.modules.patch.AccountPatch1 /tmp/AccountPatch1.classow13</p>
+            <p>例如命令为:patch com.my9yu.h5game.modules.patch.AccountPatch1 服务器上的路径/AccountPatch1.class</p>
+            <p>只填：com.my9yu.h5game.modules.patch.AccountPatch1 即可</p>
+            <p>例如命令为:patch.NewMapNpcPatch /root/NewMapNpcPatch.class</p>
+            <p>只填:patch.NewMapNpcPatch 即可</p>
+        </div>
+
+        </div>
+
+    </div>
+</div>
+{% endblock %}

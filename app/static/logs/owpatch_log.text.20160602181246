@@ -1,0 +1,51 @@
+
+执行操作时间：20160602165258
+补丁文件：GetMapInfo001.class
+补丁生产服务器上路径：/tmp/GetMapInfo001.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/GetMapInfo001.class
+执行的命令：ansible -i /etc/ansible/hosttemp selecthost -m shell -a "/data/owinit/owServer 8001 patch patch.EquipPatch  /tmp/GetMapInfo001.class"
+75.126.22.73 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+184.172.60.229 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+
+执行操作时间：20160602180527
+补丁文件：test0602.class
+补丁生产服务器上路径：/tmp/test0602.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/test0602.class
+执行的命令：ansible -i /etc/ansible/hosttemp selecthost -m shell -a "/data/owinit/owServer 8001 patch patch.EquipPatch /tmp/test0602.class"
+
+执行操作时间：20160602180800
+补丁文件：test0602.class
+补丁生产服务器上路径：/tmp/test0602.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/test0602.class
+执行的命令：ansible -i /etc/ansible/hosttemp selecthost -m shell -a "/data/owinit/owServer 8001 patch patch.EquipPatch /tmp/test0602.class"
+
+执行操作时间：20160602181008
+补丁文件：test0602.class
+补丁生产服务器上路径：/tmp/test0602.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/test0602.class
+执行的命令：ansible -i /etc/ansible/hosttemp selecthost -m shell -a "/data/owinit/owServer 8001 patch patch.EquipPatch /tmp/test0602.class"
+
+执行操作时间：20160602181106
+补丁文件：test0602.class
+补丁生产服务器上路径：/tmp/test0602.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/test0602.class
+执行的命令：ansible -i /etc/ansible/hosttemp selecthost -m shell -a "/data/owinit/owServer 8001 patch patch.EquipPatch /tmp/test0602.class"
+ow_1 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+ow_2 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+

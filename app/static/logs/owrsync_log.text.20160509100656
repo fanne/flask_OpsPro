@@ -1,0 +1,32 @@
+
+===================我是华丽分割线================================
+================最新一次更新时间20160428092337===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/release_s1
+URL: svn://192.168.50.184/p2/H5/program/release/server/ow/release_s1
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291622
+Node Kind: directory
+Schedule: normal
+Last Changed Author: updateOWAdmin
+Last Changed Rev: 291622
+Last Changed Date: 2016-04-27 17:25:58 +0800 (Wed, 27 Apr 2016)
+更新本地外网游戏服的svn到最新版本
+At revision 16624.
+更新内网svn版本为291642
+U    /data/projectDir/owpro/ow_svn_192/release_s1/dist/ow_game.jar
+Updated to revision 291642.
+同步内网游戏服 svn到外网svn
+/data/projectDir/owpro/ow_svn_192/release_s1/,/data/projectDir/owpro/ow_svn_online/owserver/
+sending incremental file list
+dist/
+dist/ow_game.jar
+
+sent 4940579 bytes  received 41 bytes  1976248.00 bytes/sec
+total size is 47617879  speedup is 9.64
+开始提交游戏服版本到外网服SVN。
+Sending        projectDir/owpro/ow_svn_online/owserver/dist/ow_game.jar
+Transmitting file data .
+Committed revision 16625.
+完成提交游戏服项目的内网SVN版本到外网svn完毕。

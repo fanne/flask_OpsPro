@@ -1,0 +1,27 @@
+
+执行操作时间：20160531144350
+补丁文件：GetMapInfoPatch1.class
+补丁生产服务器上路径：/tmp/GetMapInfoPatch1.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/GetMapInfoPatch1.class
+
+<184.172.60.229> ESTABLISH CONNECTION FOR USER: root on PORT 23111 TO 184.172.60.229
+<184.172.60.229> REMOTE_MODULE ping
+<184.172.60.229> EXEC /bin/sh -c 'mkdir -p $HOME/.ansible/tmp/ansible-tmp-1464677033.72-54485471082976 && echo $HOME/.ansible/tmp/ansible-tmp-1464677033.72-54485471082976'
+<184.172.60.229> PUT /tmp/tmpF94BSy TO /root/.ansible/tmp/ansible-tmp-1464677033.72-54485471082976/ping
+<184.172.60.229> EXEC /bin/sh -c 'LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8 /usr/bin/python /root/.ansible/tmp/ansible-tmp-1464677033.72-54485471082976/ping; rm -rf /root/.ansible/tmp/ansible-tmp-1464677033.72-54485471082976/ >/dev/null 2>&1'
+184.172.60.229 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+<75.126.22.73> ESTABLISH CONNECTION FOR USER: root on PORT 23111 TO 75.126.22.73
+<75.126.22.73> REMOTE_MODULE ping
+<75.126.22.73> EXEC /bin/sh -c 'mkdir -p $HOME/.ansible/tmp/ansible-tmp-1464677037.41-101345230666342 && echo $HOME/.ansible/tmp/ansible-tmp-1464677037.41-101345230666342'
+<75.126.22.73> PUT /tmp/tmpP2ukkN TO /root/.ansible/tmp/ansible-tmp-1464677037.41-101345230666342/ping
+<75.126.22.73> EXEC /bin/sh -c 'LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8 /usr/bin/python /root/.ansible/tmp/ansible-tmp-1464677037.41-101345230666342/ping; rm -rf /root/.ansible/tmp/ansible-tmp-1464677037.41-101345230666342/ >/dev/null 2>&1'
+75.126.22.73 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+

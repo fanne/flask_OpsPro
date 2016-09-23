@@ -1,0 +1,72 @@
+
+===================我是华丽分割线================================
+================最新一次更新时间20160427192830===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/owclient_app
+URL: svn://192.168.50.184/p2/H5/program/release/client_app/global
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291138
+Node Kind: directory
+Schedule: normal
+Last Changed Author: updateOWAdmin
+Last Changed Rev: 291138
+Last Changed Date: 2016-04-21 20:59:37 +0800 (Thu, 21 Apr 2016)
+更新本地外网app客户端(手机端)的svn到最新版本
+A    /data/projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ard/312004.zip
+A    /data/projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ios/312004.zip
+U    /data/projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ard/assets.xml
+U    /data/projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ard/version.xml
+U    /data/projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ard/package.xml
+U    /data/projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ios/assets.xml
+U    /data/projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ios/version.xml
+U    /data/projectDir/owpro/ow_svn_online/owclient_hw/pck/ow/1_global/ard/version.txt
+U    /data/projectDir/owpro/ow_svn_online/owclient_hw/pck/ow/1_global/ard/ow.global.apk
+Updated to revision 16614.
+更新内网svn版本为291633
+A    /data/projectDir/owpro/ow_svn_192/owclient_app/cdn/ow/1_global/ard/312004.zip
+A    /data/projectDir/owpro/ow_svn_192/owclient_app/cdn/ow/1_global/ard/313263.zip
+A    /data/projectDir/owpro/ow_svn_192/owclient_app/cdn/ow/1_global/ios/313263.zip
+A    /data/projectDir/owpro/ow_svn_192/owclient_app/cdn/ow/1_global/ios/312004.zip
+U    /data/projectDir/owpro/ow_svn_192/owclient_app/res/ow/1_global/ard/assets.xml
+U    /data/projectDir/owpro/ow_svn_192/owclient_app/res/ow/1_global/ard/version.xml
+U    /data/projectDir/owpro/ow_svn_192/owclient_app/res/ow/1_global/ard/package.xml
+U    /data/projectDir/owpro/ow_svn_192/owclient_app/res/ow/1_global/ios/assets.xml
+U    /data/projectDir/owpro/ow_svn_192/owclient_app/res/ow/1_global/ios/version.xml
+U    /data/projectDir/owpro/ow_svn_192/owclient_app/pck/ow/1_global/ard/version.txt
+U    /data/projectDir/owpro/ow_svn_192/owclient_app/pck/ow/1_global/ard/ow.global.apk
+Updated to revision 291633.
+同步内网app客户端(手机端) svn到外网svn
+/data/projectDir/owpro/ow_svn_192/owclient_app/,/data/projectDir/owpro/ow_svn_online/owclient_hw/
+sending incremental file list
+cdn/ow/1_global/ard/
+cdn/ow/1_global/ard/312004.zip
+cdn/ow/1_global/ard/313263.zip
+cdn/ow/1_global/ios/
+cdn/ow/1_global/ios/312004.zip
+cdn/ow/1_global/ios/313263.zip
+pck/ow/1_global/ard/
+pck/ow/1_global/ard/ow.global.apk
+pck/ow/1_global/ard/version.txt
+res/ow/1_global/ard/
+res/ow/1_global/ard/assets.xml
+res/ow/1_global/ard/package.xml
+res/ow/1_global/ard/version.xml
+res/ow/1_global/ios/
+res/ow/1_global/ios/assets.xml
+res/ow/1_global/ios/version.xml
+
+sent 88834178 bytes  received 251 bytes  2912604.23 bytes/sec
+total size is 265134519  speedup is 2.98
+开始提交app客户端(手机端)版本到外网服SVN。
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ios/313263.zip
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ard/313263.zip
+Adding  (bin)  projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ard/313263.zip
+Adding  (bin)  projectDir/owpro/ow_svn_online/owclient_hw/cdn/ow/1_global/ios/313263.zip
+Sending        projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ard/assets.xml
+Sending        projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ard/version.xml
+Sending        projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ios/assets.xml
+Sending        projectDir/owpro/ow_svn_online/owclient_hw/res/ow/1_global/ios/version.xml
+Transmitting file data ......
+Committed revision 16615.
+完成提交app客户端(手机端)项目的内网SVN版本到外网svn完毕。

@@ -1,0 +1,148 @@
+
+===================我是华丽分割线================================
+================最新一次更新时间20160427192436===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/release_s1
+URL: svn://192.168.50.184/p2/H5/program/release/server/ow/release_s1
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291142
+Node Kind: directory
+Schedule: normal
+Last Changed Author: updateOWAdmin
+Last Changed Rev: 291142
+Last Changed Date: 2016-04-21 21:23:13 +0800 (Thu, 21 Apr 2016)
+更新本地外网游戏服的svn到最新版本
+At revision 16612.
+更新内网svn版本为291622
+D    /data/projectDir/owpro/ow_svn_192/release_s1/sql/update.sql
+U    /data/projectDir/owpro/ow_svn_192/release_s1/sql/bop_update.sql
+U    /data/projectDir/owpro/ow_svn_192/release_s1/sql/ow.sql
+U    /data/projectDir/owpro/ow_svn_192/release_s1/sql/ow_update.sql
+U    /data/projectDir/owpro/ow_svn_192/release_s1/dist/ow_game.jar
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/bop/ModuleCfg.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/ow/ModuleCfg.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/DropInfo.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/KingThroneEffect.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/FestivalNpcCfg.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/DigTroveBuyRefreshTimes.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/TerritoryIntegral.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/Nationality.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/Open.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/Giftx.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/NpcModel.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/GiftOpenx.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/PushContent_11.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/EquipSkillEffectBase.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/ActivityCostReward.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/Item.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/GameRule.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/FestivalAct.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/EquipTiPin.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/Equip.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/UnionTroveCfg.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/Formula.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/DigTroveBuyRewardTimes.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/BasedbVer.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/ActivityExchange.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/ActivityMall.xml
+A    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/ActivityCostWay.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/xml_db/NoticeTemplate.xml
+U    /data/projectDir/owpro/ow_svn_192/release_s1/resources/configuration.xml
+Updated to revision 291622.
+同步内网游戏服 svn到外网svn
+/data/projectDir/owpro/ow_svn_192/release_s1/,/data/projectDir/owpro/ow_svn_online/owserver/
+sending incremental file list
+dist/
+dist/ow_game.jar
+resources/
+resources/configuration.xml
+resources/bop/
+resources/bop/ModuleCfg.xml
+resources/ow/
+resources/ow/ModuleCfg.xml
+resources/xml_db/
+resources/xml_db/ActivityCostReward.xml
+resources/xml_db/ActivityCostWay.xml
+resources/xml_db/ActivityExchange.xml
+resources/xml_db/ActivityMall.xml
+resources/xml_db/BasedbVer.xml
+resources/xml_db/DigTroveBuyRefreshTimes.xml
+resources/xml_db/DigTroveBuyRewardTimes.xml
+resources/xml_db/DropInfo.xml
+resources/xml_db/Equip.xml
+resources/xml_db/EquipSkillEffectBase.xml
+resources/xml_db/EquipTiPin.xml
+resources/xml_db/FestivalAct.xml
+resources/xml_db/FestivalNpcCfg.xml
+resources/xml_db/Formula.xml
+resources/xml_db/GameRule.xml
+resources/xml_db/GiftOpenx.xml
+resources/xml_db/Giftx.xml
+resources/xml_db/Item.xml
+resources/xml_db/KingThroneEffect.xml
+resources/xml_db/Nationality.xml
+resources/xml_db/NoticeTemplate.xml
+resources/xml_db/NpcModel.xml
+resources/xml_db/Open.xml
+resources/xml_db/PushContent_11.xml
+resources/xml_db/TerritoryIntegral.xml
+resources/xml_db/UnionTroveCfg.xml
+sql/
+deleting sql/update.sql
+sql/bop_update.sql
+sql/ow.sql
+sql/ow_update.sql
+
+sent 5017887 bytes  received 664 bytes  1433871.71 bytes/sec
+total size is 47643359  speedup is 9.49
+开始提交游戏服版本到外网服SVN。
+D         /data/projectDir/owpro/ow_svn_online/owserver/sql/update.sql
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/ActivityMall.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/ActivityCostReward.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/ActivityExchange.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/DigTroveBuyRewardTimes.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/FestivalAct.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/TerritoryIntegral.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/FestivalNpcCfg.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/ActivityCostWay.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/DigTroveBuyRefreshTimes.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/UnionTroveCfg.xml
+A         /data/projectDir/owpro/ow_svn_online/owserver/resources/xml_db/EquipTiPin.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/dist/ow_game.jar
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/bop/ModuleCfg.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/configuration.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/ow/ModuleCfg.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/ActivityCostReward.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/ActivityCostWay.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/ActivityExchange.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/ActivityMall.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/BasedbVer.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/DigTroveBuyRefreshTimes.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/DigTroveBuyRewardTimes.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/DropInfo.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/Equip.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/EquipSkillEffectBase.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/EquipTiPin.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/FestivalAct.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/FestivalNpcCfg.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/Formula.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/GameRule.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/GiftOpenx.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/Giftx.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/Item.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/KingThroneEffect.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/Nationality.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/NoticeTemplate.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/NpcModel.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/Open.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/resources/xml_db/PushContent_11.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/TerritoryIntegral.xml
+Adding         projectDir/owpro/ow_svn_online/owserver/resources/xml_db/UnionTroveCfg.xml
+Sending        projectDir/owpro/ow_svn_online/owserver/sql/bop_update.sql
+Sending        projectDir/owpro/ow_svn_online/owserver/sql/ow.sql
+Sending        projectDir/owpro/ow_svn_online/owserver/sql/ow_update.sql
+Deleting       projectDir/owpro/ow_svn_online/owserver/sql/update.sql
+Transmitting file data .................................
+Committed revision 16613.
+完成提交游戏服项目的内网SVN版本到外网svn完毕。

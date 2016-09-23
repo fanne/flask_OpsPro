@@ -1,0 +1,167 @@
+
+执行操作时间：20160606110732
+补丁文件：GetMapInfo001.class
+补丁生产服务器上路径：/tmp/GetMapInfo001.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/GetMapInfo001.class
+执行的命令：ansible -i /etc/ansible/hosttemp selecthost -m shell -a "/data/owinit/owServer 8001 patch patch.EquipPatch /tmp/GetMapInfo001.class"
+ow_4 | success >> {
+ow_4 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_9 | success >> {
+ow_9 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_14 | success >> {
+ow_14 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_5 | success >> {
+ow_5 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_6 | success >> {
+ow_6 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_11 | success >> {
+ow_11 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_1 | success >> {
+ow_1 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_7 | success >> {
+ow_7 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_12 | success >> {
+ow_12 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_3 | success >> {
+ow_3 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_10 | success >> {
+ow_10 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_15 | success >> {
+ow_15 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_16 | success >> {
+ow_16 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_2 | success >> {
+ow_2 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_8 | success >> {
+ow_8 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+ow_13 | success >> {
+ow_13 | success >> {
+    "changed": false, 
+    "changed": false, 
+    "ping": "pong"
+    "ping": "pong"
+}
+}
+
+
+执行打补丁完成~~

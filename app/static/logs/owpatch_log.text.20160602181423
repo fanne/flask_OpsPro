@@ -1,0 +1,7 @@
+
+执行操作时间：20160602181246
+补丁文件：test0602.class
+补丁生产服务器上路径：/tmp/test0602.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/test0602.class
+执行的命令：ansible -i /etc/ansible/hosttemp selecthost -m shell -a "/data/owinit/owServer 8001 patch patch.EquipPatch /tmp/test0602.class"
+

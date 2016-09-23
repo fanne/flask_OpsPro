@@ -1,0 +1,428 @@
+
+===================我是华丽分割线================================
+================最新一次更新时间20160427192528===========================
+内网版本svn信息:
+Path: /data/projectDir/owpro/ow_svn_192/owclient_web
+URL: svn://192.168.50.184/p2/H5/program/release/client_web/beta
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291373
+Node Kind: directory
+Schedule: normal
+Last Changed Author: cuipeihui
+Last Changed Rev: 291373
+Last Changed Date: 2016-04-25 18:03:11 +0800 (Mon, 25 Apr 2016)
+更新本地外网web客户端(cdn)的svn到最新版本
+At revision 16613.
+更新内网svn版本为291630
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/loginconnect.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/main.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/conf/conf_cdn.js
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/upload/upload_icon.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/union/union_digtrove.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/union/union_common.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/charge/gift_effect.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/charge/giftBoxInfo.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/map/res_map_ui.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/map/map_ui.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/festivalActivity
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/festivalActivity/festival_activity_effect.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/festivalActivity/festival_rctivity_reard_preview.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/festivalActivity/festival_activity.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/festivalActivity/festival_npc_effect.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/festivalActivity/festival_activity_exchange.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/festivalActivity/festival_activity_alert.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/giftType/giftBoxType16.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/festivalNpcInfo
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/festivalNpcInfo/map_festival_npc_info.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/player/player_job.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/task/taskReward.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/recharge/recharge_activity.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/mail/mail.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/swf/maincity/main_city.swf
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_laodongxunzhang.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_duanchongpao.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_sichou_8.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_zhenbaobeike.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_juxingbeike.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_heitangmu_7.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sj_hangxing4.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_fengweiluo.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_hujiap_7.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_jianongpao.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_diyuyaoqinghan.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_maoyans_8.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sc_vipdianshu2.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sc_vipdianshu4.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_hupo_8.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sc_jinbi1.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_yiwangzhishu.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sc_ziyuan1.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_shuijing_8.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sc_azitekeyinbi1.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sj_zhaohui5.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_heitangmu_8.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_ruchangquan.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_beike.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sc_touxiang3.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_mutong.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_jiupao.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sj_hangxing3.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_hujiap_8.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_maoyans_7.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sc_vipdianshu1.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/icon_sc_vipdianshu3.png
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/icon_64/ico_hupo_7.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/festivalNpc
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/festivalNpc/chuan01.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/equip/equip64/icon_zb_xgongrenzhiwo.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/festivalActivity
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/festivalActivity/icon_laodongxunzhang.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/festivalActivity/icon_mutong.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/image/festivalActivity/icon_sc_jinbi1.png
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/map/ship_model/chuan1
+A    /data/projectDir/owpro/ow_svn_192/owclient_web/resource/cn/map/ship_model/chuan1/twoStand.9yur
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/cn/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/cn/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/cn/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/cn/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ar/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ar/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ar/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ar/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/en/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/en/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/en/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/en/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/pt/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tr/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ru/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ru/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ru/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/ru/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/fr/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/fr/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/fr/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/fr/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/de/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tw/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tw/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tw/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/tw/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/th/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/id/language.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/id/resmark.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/id/prelanguage.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/id/basedb.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/gamexml/game_version.xml
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/CreateRoleWin.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/index.swf
+U    /data/projectDir/owpro/ow_svn_192/owclient_web/js/pay.js
+Updated to revision 291630.
+同步内网web客户端(cdn) svn到外网svn
+/data/projectDir/owpro/ow_svn_192/owclient_web/,/data/projectDir/owpro/ow_svn_online/owweb/
+sending incremental file list
+./
+CreateRoleWin.swf
+index.swf
+loginconnect.swf
+main.swf
+conf/
+conf/conf_cdn.js
+gamexml/
+gamexml/game_version.xml
+gamexml/ar/
+gamexml/ar/basedb.swf
+gamexml/ar/language.swf
+gamexml/ar/prelanguage.swf
+gamexml/ar/resmark.swf
+gamexml/cn/
+gamexml/cn/basedb.swf
+gamexml/cn/language.swf
+gamexml/cn/prelanguage.swf
+gamexml/cn/resmark.swf
+gamexml/de/
+gamexml/de/basedb.swf
+gamexml/de/language.swf
+gamexml/de/prelanguage.swf
+gamexml/de/resmark.swf
+gamexml/en/
+gamexml/en/basedb.swf
+gamexml/en/language.swf
+gamexml/en/prelanguage.swf
+gamexml/en/resmark.swf
+gamexml/fr/
+gamexml/fr/basedb.swf
+gamexml/fr/language.swf
+gamexml/fr/prelanguage.swf
+gamexml/fr/resmark.swf
+gamexml/id/
+gamexml/id/basedb.swf
+gamexml/id/language.swf
+gamexml/id/prelanguage.swf
+gamexml/id/resmark.swf
+gamexml/pt/
+gamexml/pt/basedb.swf
+gamexml/pt/language.swf
+gamexml/pt/prelanguage.swf
+gamexml/pt/resmark.swf
+gamexml/ru/
+gamexml/ru/basedb.swf
+gamexml/ru/language.swf
+gamexml/ru/prelanguage.swf
+gamexml/ru/resmark.swf
+gamexml/th/
+gamexml/th/basedb.swf
+gamexml/th/language.swf
+gamexml/th/prelanguage.swf
+gamexml/th/resmark.swf
+gamexml/tr/
+gamexml/tr/basedb.swf
+gamexml/tr/language.swf
+gamexml/tr/prelanguage.swf
+gamexml/tr/resmark.swf
+gamexml/tw/
+gamexml/tw/basedb.swf
+gamexml/tw/language.swf
+gamexml/tw/prelanguage.swf
+gamexml/tw/resmark.swf
+js/
+js/pay.js
+resource/cn/image/
+resource/cn/image/equip/equip64/
+resource/cn/image/equip/equip64/icon_zb_xgongrenzhiwo.png
+resource/cn/image/festivalActivity/
+resource/cn/image/festivalActivity/icon_laodongxunzhang.png
+resource/cn/image/festivalActivity/icon_mutong.png
+resource/cn/image/festivalActivity/icon_sc_jinbi1.png
+resource/cn/image/festivalNpc/
+resource/cn/image/festivalNpc/chuan01.png
+resource/cn/image/icon_64/
+resource/cn/image/icon_64/ico_beike.png
+resource/cn/image/icon_64/ico_diyuyaoqinghan.png
+resource/cn/image/icon_64/ico_duanchongpao.png
+resource/cn/image/icon_64/ico_fengweiluo.png
+resource/cn/image/icon_64/ico_heitangmu_7.png
+resource/cn/image/icon_64/ico_heitangmu_8.png
+resource/cn/image/icon_64/ico_hujiap_7.png
+resource/cn/image/icon_64/ico_hujiap_8.png
+resource/cn/image/icon_64/ico_hupo_7.png
+resource/cn/image/icon_64/ico_hupo_8.png
+resource/cn/image/icon_64/ico_jianongpao.png
+resource/cn/image/icon_64/ico_jiupao.png
+resource/cn/image/icon_64/ico_juxingbeike.png
+resource/cn/image/icon_64/ico_maoyans_7.png
+resource/cn/image/icon_64/ico_maoyans_8.png
+resource/cn/image/icon_64/ico_ruchangquan.png
+resource/cn/image/icon_64/ico_shuijing_8.png
+resource/cn/image/icon_64/ico_sichou_8.png
+resource/cn/image/icon_64/ico_yiwangzhishu.png
+resource/cn/image/icon_64/ico_zhenbaobeike.png
+resource/cn/image/icon_64/icon_laodongxunzhang.png
+resource/cn/image/icon_64/icon_mutong.png
+resource/cn/image/icon_64/icon_sc_azitekeyinbi1.png
+resource/cn/image/icon_64/icon_sc_jinbi1.png
+resource/cn/image/icon_64/icon_sc_touxiang3.png
+resource/cn/image/icon_64/icon_sc_vipdianshu1.png
+resource/cn/image/icon_64/icon_sc_vipdianshu2.png
+resource/cn/image/icon_64/icon_sc_vipdianshu3.png
+resource/cn/image/icon_64/icon_sc_vipdianshu4.png
+resource/cn/image/icon_64/icon_sc_ziyuan1.png
+resource/cn/image/icon_64/icon_sj_hangxing3.png
+resource/cn/image/icon_64/icon_sj_hangxing4.png
+resource/cn/image/icon_64/icon_sj_zhaohui5.png
+resource/cn/map/ship_model/
+resource/cn/map/ship_model/chuan1/
+resource/cn/map/ship_model/chuan1/twoStand.9yur
+resource/cn/swf/
+resource/cn/swf/charge/
+resource/cn/swf/charge/giftBoxInfo.swf
+resource/cn/swf/charge/gift_effect.swf
+resource/cn/swf/festivalActivity/
+resource/cn/swf/festivalActivity/festival_activity.swf
+resource/cn/swf/festivalActivity/festival_activity_alert.swf
+resource/cn/swf/festivalActivity/festival_activity_effect.swf
+resource/cn/swf/festivalActivity/festival_activity_exchange.swf
+resource/cn/swf/festivalActivity/festival_npc_effect.swf
+resource/cn/swf/festivalActivity/festival_rctivity_reard_preview.swf
+resource/cn/swf/festivalNpcInfo/
+resource/cn/swf/festivalNpcInfo/map_festival_npc_info.swf
+resource/cn/swf/giftType/
+resource/cn/swf/giftType/giftBoxType16.swf
+resource/cn/swf/mail/
+resource/cn/swf/mail/mail.swf
+resource/cn/swf/maincity/
+resource/cn/swf/maincity/main_city.swf
+resource/cn/swf/map/
+resource/cn/swf/map/map_ui.swf
+resource/cn/swf/map/res_map_ui.swf
+resource/cn/swf/player/
+resource/cn/swf/player/player_job.swf
+resource/cn/swf/recharge/
+resource/cn/swf/recharge/recharge_activity.swf
+resource/cn/swf/task/
+resource/cn/swf/task/taskReward.swf
+resource/cn/swf/union/
+resource/cn/swf/union/union_common.swf
+resource/cn/swf/union/union_digtrove.swf
+resource/cn/swf/upload/
+resource/cn/swf/upload/upload_icon.swf
+
+sent 12048280 bytes  received 2460 bytes  2191043.64 bytes/sec
+total size is 133519589  speedup is 11.08
+开始提交web客户端(cdn)版本到外网服SVN。
+A         /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalNpcInfo
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalNpcInfo/map_festival_npc_info.swf
+A         /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_npc_effect.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_activity.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_rctivity_reard_preview.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_activity_alert.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_activity_effect.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_activity_exchange.swf
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/giftType/giftBoxType16.swf
+A         /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/map/ship_model/chuan1
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/map/ship_model/chuan1/twoStand.9yur
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_mutong.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_jianongpao.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_zhenbaobeike.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_laodongxunzhang.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_duanchongpao.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_jiupao.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_juxingbeike.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/equip/equip64/icon_zb_xgongrenzhiwo.png
+A         /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalActivity
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalActivity/icon_mutong.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalActivity/icon_laodongxunzhang.png
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalActivity/icon_sc_jinbi1.png
+A         /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalNpc
+A  (bin)  /data/projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalNpc/chuan01.png
+Sending        projectDir/owpro/ow_svn_online/owweb/CreateRoleWin.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/conf/conf_cdn.js
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/ar/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/ar/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/ar/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/ar/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/cn/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/cn/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/cn/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/cn/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/de/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/de/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/de/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/de/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/en/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/en/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/en/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/en/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/fr/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/fr/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/fr/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/fr/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/game_version.xml
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/id/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/id/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/id/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/id/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/pt/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/pt/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/pt/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/pt/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/ru/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/ru/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/ru/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/ru/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/th/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/th/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/th/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/th/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/tr/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/tr/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/tr/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/tr/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/tw/basedb.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/tw/language.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/tw/prelanguage.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/gamexml/tw/resmark.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/index.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/loginconnect.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/main.swf
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/equip/equip64/icon_zb_xgongrenzhiwo.png
+Adding         projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalActivity
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalActivity/icon_laodongxunzhang.png
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalActivity/icon_mutong.png
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalActivity/icon_sc_jinbi1.png
+Adding         projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalNpc
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/festivalNpc/chuan01.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_beike.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_diyuyaoqinghan.png
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_duanchongpao.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_fengweiluo.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_heitangmu_7.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_heitangmu_8.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_hujiap_7.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_hujiap_8.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_hupo_7.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_hupo_8.png
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_jianongpao.png
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_jiupao.png
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_juxingbeike.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_maoyans_7.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_maoyans_8.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_ruchangquan.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_shuijing_8.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_sichou_8.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_yiwangzhishu.png
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/ico_zhenbaobeike.png
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_laodongxunzhang.png
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_mutong.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sc_azitekeyinbi1.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sc_jinbi1.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sc_touxiang3.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sc_vipdianshu1.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sc_vipdianshu2.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sc_vipdianshu3.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sc_vipdianshu4.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sc_ziyuan1.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sj_hangxing3.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sj_hangxing4.png
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/image/icon_64/icon_sj_zhaohui5.png
+Adding         projectDir/owpro/ow_svn_online/owweb/resource/cn/map/ship_model/chuan1
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/map/ship_model/chuan1/twoStand.9yur
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/charge/giftBoxInfo.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/charge/gift_effect.swf
+Adding         projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_activity.swf
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_activity_alert.swf
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_activity_effect.swf
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_activity_exchange.swf
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_npc_effect.swf
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalActivity/festival_rctivity_reard_preview.swf
+Adding         projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalNpcInfo
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/festivalNpcInfo/map_festival_npc_info.swf
+Adding  (bin)  projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/giftType/giftBoxType16.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/mail/mail.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/maincity/main_city.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/map/map_ui.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/map/res_map_ui.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/player/player_job.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/recharge/recharge_activity.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/task/taskReward.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/union/union_common.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/union/union_digtrove.swf
+Sending        projectDir/owpro/ow_svn_online/owweb/resource/cn/swf/upload/upload_icon.swf
+Transmitting file data .............................................................................................................
+Committed revision 16614.
+完成提交web客户端(cdn)项目的内网SVN版本到外网svn完毕。

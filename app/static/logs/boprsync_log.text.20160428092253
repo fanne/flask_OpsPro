@@ -1,0 +1,52 @@
+
+===================我是华丽分割线================================
+================最新一次更新时间20160427191925===========================
+内网版本svn信息:
+Path: /data/projectDir/boppro/bop_svn_192/bopclient_app
+URL: svn://192.168.50.184/p2/H5/program/release/client_app/bop
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 291274
+Node Kind: directory
+Schedule: normal
+Last Changed Author: updateOWAdmin
+Last Changed Rev: 291274
+Last Changed Date: 2016-04-23 17:22:29 +0800 (Sat, 23 Apr 2016)
+更新本地外网app客户端(手机端)的svn到最新版本
+At revision 16610.
+更新内网svn版本为291635
+A    /data/projectDir/boppro/bop_svn_192/bopclient_app/cdn/bop/1_global/ard/313272.zip
+A    /data/projectDir/boppro/bop_svn_192/bopclient_app/cdn/bop/1_global/ios/313272.zip
+U    /data/projectDir/boppro/bop_svn_192/bopclient_app/res/bop/1_global/ard/assets.xml
+U    /data/projectDir/boppro/bop_svn_192/bopclient_app/res/bop/1_global/ard/version.xml
+U    /data/projectDir/boppro/bop_svn_192/bopclient_app/res/bop/1_global/ios/assets.xml
+U    /data/projectDir/boppro/bop_svn_192/bopclient_app/res/bop/1_global/ios/version.xml
+Updated to revision 291635.
+同步内网app客户端(手机端) svn到外网svn
+/data/projectDir/boppro/bop_svn_192/bopclient_app/,/data/projectDir/boppro/bop_svn_online/bopclient/
+sending incremental file list
+cdn/bop/1_global/ard/
+cdn/bop/1_global/ard/313272.zip
+cdn/bop/1_global/ios/
+cdn/bop/1_global/ios/313272.zip
+res/bop/1_global/ard/
+res/bop/1_global/ard/assets.xml
+res/bop/1_global/ard/version.xml
+res/bop/1_global/ios/
+res/bop/1_global/ios/assets.xml
+res/bop/1_global/ios/version.xml
+
+sent 9067005 bytes  received 153 bytes  2590616.57 bytes/sec
+total size is 102501511  speedup is 11.30
+开始提交app客户端(手机端)版本到外网服SVN。
+A  (bin)  /data/projectDir/boppro/bop_svn_online/bopclient/cdn/bop/1_global/ios/313272.zip
+A  (bin)  /data/projectDir/boppro/bop_svn_online/bopclient/cdn/bop/1_global/ard/313272.zip
+Adding  (bin)  projectDir/boppro/bop_svn_online/bopclient/cdn/bop/1_global/ard/313272.zip
+Adding  (bin)  projectDir/boppro/bop_svn_online/bopclient/cdn/bop/1_global/ios/313272.zip
+Sending        projectDir/boppro/bop_svn_online/bopclient/res/bop/1_global/ard/assets.xml
+Sending        projectDir/boppro/bop_svn_online/bopclient/res/bop/1_global/ard/version.xml
+Sending        projectDir/boppro/bop_svn_online/bopclient/res/bop/1_global/ios/assets.xml
+Sending        projectDir/boppro/bop_svn_online/bopclient/res/bop/1_global/ios/version.xml
+Transmitting file data ......
+Committed revision 16611.
+完成提交app客户端(手机端)项目的内网SVN版本到外网svn完毕。

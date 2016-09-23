@@ -1,0 +1,81 @@
+补丁文件：GetMapInfoPatch.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/GetMapInfoPatch.class
+184.172.60.229 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+
+184.172.60.229 | success >> {
+    "changed": true, 
+    "checksum": "919a2e4ac720bba502c6febf11cab300297489a7", 
+    "dest": "/tmp/GetMapInfoPatch.class", 
+    "gid": 0, 
+    "group": "root", 
+    "md5sum": "2981de6ec7c2c33b9901ad9781e0f523", 
+    "mode": "0644", 
+    "owner": "root", 
+    "size": 3214, 
+    "src": "/root/.ansible/tmp/ansible-tmp-1464582924.95-77478559856297/source", 
+    "state": "file", 
+    "uid": 0
+}
+
+
+补丁文件：GetMapInfoPatch.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/GetMapInfoPatch.class
+184.172.60.229 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+
+184.172.60.229 | success >> {
+    "changed": false, 
+    "checksum": "919a2e4ac720bba502c6febf11cab300297489a7", 
+    "dest": "/tmp/GetMapInfoPatch.class", 
+    "gid": 0, 
+    "group": "root", 
+    "mode": "0644", 
+    "owner": "root", 
+    "path": "/tmp/GetMapInfoPatch.class", 
+    "size": 3214, 
+    "state": "file", 
+    "uid": 0
+}
+
+
+184.172.60.229 | success | rc=0 >>
+收到安装补丁的回应, 返回结果: 0
+2016-05-30:04:37:38 8001 patch ok
+
+
+补丁文件：GetMapInfoPatch1.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/GetMapInfoPatch1.class
+184.172.60.229 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+
+184.172.60.229 | success >> {
+    "changed": true, 
+    "checksum": "f36c3bc462b133fe1b6e1ba58642e6cccc5dd709", 
+    "dest": "/tmp/GetMapInfoPatch1.class", 
+    "gid": 0, 
+    "group": "root", 
+    "md5sum": "1889ba5ac106b3d80278d759909068c0", 
+    "mode": "0644", 
+    "owner": "root", 
+    "size": 5211, 
+    "src": "/root/.ansible/tmp/ansible-tmp-1464591397.48-244415229728087/source", 
+    "state": "file", 
+    "uid": 0
+}
+
+
+184.172.60.229 | success | rc=0 >>
+收到安装补丁的回应, 返回结果: 0
+2016-05-30:06:57:17 8001 patch ok
+
+

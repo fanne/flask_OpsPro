@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+
+<h2>ow list</h2>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>服ID</th>
+                    <th>服名称</th>
+                    <th>服IP</th>
+                    <th>服Port</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            {% for serverlist in owLists %}
+                <tr>
+
+                    <td>
+                        {{serverlist.serverId}}
+                    </td>
+                    <td>
+                        {{serverlist.serverName}}
+                    </td>
+                    <td>
+                        {{ serverlist.serverHost }}
+                    </td>
+                    <td>
+                        {{ serverlist.serverPort }}
+                    </td>
+
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+<h2>bop list</h2>
+
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>服ID</th>
+                    <th>服名称</th>
+                    <th>服IP</th>
+                </tr>
+            </thead>
+
+            <br><br>
+
+            <tbody>
+            {% for serverlist in bopLists %}
+                <tr>
+
+                    <td>
+                        {{serverlist.serverId}}
+                    </td>
+                    <td>
+                        {{serverlist.serverName}}
+                    </td>
+                    <td>
+                        {{ serverlist.serverHost }}
+                    </td>
+
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+</div>
+
+{% endblock %}
+

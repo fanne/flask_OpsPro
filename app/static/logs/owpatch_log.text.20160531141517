@@ -1,0 +1,16 @@
+
+执行操作时间：20160531114636
+补丁文件：GetMapInfoPatch1.class
+补丁生产服务器上路径：/tmp/GetMapInfoPatch1.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/GetMapInfoPatch1.class
+184.172.60.233 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+184.172.60.229 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+

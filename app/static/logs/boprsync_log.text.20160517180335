@@ -1,0 +1,27 @@
+
+===================我是华丽分割线================================
+================最新一次更新时间20160517180322===========================
+内网版本svn信息:
+Path: /data/projectDir/boppro/bop_svn_192/release_trans
+URL: svn://192.168.50.184/p2/H5/program/release/server/bop/release_trans
+Repository Root: svn://192.168.50.184/p2
+Repository UUID: d1713c99-ffc4-40a5-8cc0-3262a4b14983
+Revision: 292462
+Node Kind: directory
+Schedule: normal
+Last Changed Author: updateOWAdmin
+Last Changed Rev: 292462
+Last Changed Date: 2016-05-14 15:58:05 +0800 (Sat, 14 May 2016)
+更新本地外网翻译服的svn到最新版本
+At revision 16963.
+更新内网svn版本为292462
+At revision 292462.
+同步内网翻译服 svn到外网svn
+/data/projectDir/boppro/bop_svn_192/release_trans/,/data/projectDir/boppro/bop_svn_online/boptrans/
+sending incremental file list
+
+sent 1768 bytes  received 15 bytes  3566.00 bytes/sec
+total size is 21155529  speedup is 11865.13
+开始提交翻译服版本到外网服SVN。
+
+完成提交翻译服项目的内网SVN版本到外网svn完毕。

@@ -1,0 +1,47 @@
+
+执行操作时间：20160606112831
+补丁文件：GetMapInfo001.class
+补丁生产服务器上路径：/tmp/GetMapInfo001.class
+补丁文件全路径:/data/python_project/SqlWebDev/app/static/uploads/GetMapInfo001.class
+执行的命令：ansible -i /etc/ansible/hosttemp selecthost -m shell -a "/data/owinit/owServer 8001 patch patch.EquipPatch /tmp/GetMapInfo001.class"
+ow_1 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+ow_2 | success >> {
+    "changed": false, 
+    "ping": "pong"
+}
+
+ow_1 | success >> {
+    "changed": true, 
+    "checksum": "f36c3bc462b133fe1b6e1ba58642e6cccc5dd709", 
+    "dest": "/tmp/GetMapInfo001.class", 
+    "gid": 0, 
+    "group": "root", 
+    "md5sum": "1889ba5ac106b3d80278d759909068c0", 
+    "mode": "0644", 
+    "owner": "root", 
+    "size": 5211, 
+    "src": "/root/.ansible/tmp/ansible-tmp-1465183723.14-200181465799055/source", 
+    "state": "file", 
+    "uid": 0
+}
+
+ow_2 | success >> {
+    "changed": true, 
+    "checksum": "f36c3bc462b133fe1b6e1ba58642e6cccc5dd709", 
+    "dest": "/tmp/GetMapInfo001.class", 
+    "gid": 0, 
+    "group": "root", 
+    "md5sum": "1889ba5ac106b3d80278d759909068c0", 
+    "mode": "0644", 
+    "owner": "root", 
+    "size": 5211, 
+    "src": "/root/.ansible/tmp/ansible-tmp-1465183723.92-71391888741882/source", 
+    "state": "file", 
+    "uid": 0
+}
+
+执行打补丁完成~~

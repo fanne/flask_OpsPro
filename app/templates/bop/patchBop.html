@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    bop patch
+{% endblock %}
+
+{% block content %}
+<div class="container" style="margin-top: 40px">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+            <h2 class="col-md-offset-2">BOP打补丁操作</h2><br>
+            <form  method="POST">
+
+                <label for="name">选服进行打补丁</label>
+                    <div class="form-group">
+                        <div id="list">
+                            {% for server in serverlists %}
+                            <label class="checkbox-inline">
+                                <input type="checkbox" name="dbcheckbox"
+                                       id="{{ server.serverId }}"
+                                       value="{{ server.serverId }}">
+                                {{ server.serverName }}
+                            </label>
+                            {% if  loop.index%10 ==0 %}
+                                <br>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    <br>
+                    <input type="checkbox" id="all">
+                    <input type="button" value="全选" class="btn" id="selectAll">
+                    <input type="button" value="全不选" class="btn" id="unSelect">
+                    <input type="button" value="反选" class="btn" id="reverse">
+                    <input type="button" value="获得选中的所有值" class="btn" id="getValue">
+                    </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
