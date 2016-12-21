@@ -13,6 +13,7 @@ from app.ow.sqlselect import runSql
 from owinfo import pronameDict,proDic
 from owrsync import startRsync
 from owpatch import startPatch
+from addServerToStart import ThreadAddServer
 import collections
 import os
 import re
@@ -32,6 +33,7 @@ if not os.path.exists(upload_path):
 warning_command = ['init','stop','start','restart','kill',';','&&','root','tmp','global','Global','owglobal']
 allow_command = ['patch','com.my9yu.h5game.modules.patch']
 patch_logfile = app.config['PATCH_LOGFILE']
+ansible_host_file = '/etc/ansible/hosts'
 
 
 
@@ -93,6 +95,19 @@ def addOw():
                                 serverPort=owserverform.port.data)
             db.session.add(gameserver)
             db.session.commit()
+            newAnsible = 'ow%s ansible_ssh_host=%s server_port=%s server_id=%s' \
+                         %(owserverform.id.data,owserverform.host.data,owserverform.port.data,owserverform.id.data)
+
+            print newAnsible
+            os.system("sed -i '/\[ow\]/a\%s' %s" %(newAnsible,ansible_host_file))
+
+            # time.sleep(2)
+
+            #异步添加新服
+            app = current_app._get_current_object()
+            ThreadAddServer(app,owserverform.id.data,owserverform.port.data)
+
+
             flash('add server complete')
             return redirect(url_for('ow.addOw'))
         else:

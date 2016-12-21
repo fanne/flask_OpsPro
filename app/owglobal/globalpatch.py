@@ -22,7 +22,7 @@ def PatchWork(app,serverid,patchfile,patchdir,patchcmd,serverport):
         myfile = open(patch_logfile,"a",0)
 
         p = Popen('source /root/.keychain/CentOS6x64-Int-sh;'
-                  '/usr/local/python27/bin/ansible owglobal%s -m ping' %serverid,
+                  '/bin/proxychains /usr/local/python27/bin/ansible owglobal%s -m ping' %serverid,
                   stdout=PIPE,stderr=STDOUT,shell=True)
         for line in iter(p.stdout.readline,""):
             myfile.write(line)
@@ -30,7 +30,7 @@ def PatchWork(app,serverid,patchfile,patchdir,patchcmd,serverport):
 
         #文件拷贝到远程机器
         p = Popen('source /root/.keychain/CentOS6x64-Int-sh;'
-                  '/usr/local/python27/bin/ansible owglobal%s -m copy -a "src=%s dest=/tmp"' %(serverid,patchdir),
+                  '/bin/proxychains /usr/local/python27/bin/ansible owglobal%s -m copy -a "src=%s dest=/tmp"' %(serverid,patchdir),
                   stdout=PIPE,stderr=STDOUT,shell=True)
         for line in iter(p.stdout.readline,""):
             myfile.write(line)
@@ -48,7 +48,7 @@ def PatchWork(app,serverid,patchfile,patchdir,patchcmd,serverport):
         ##打印打补丁后的日志信息
         myfile.write("补丁执行日志:\n\n")
         p = Popen('source /root/.keychain/CentOS6x64-Int-sh;'
-                  '/usr/local/python27/bin/ansible owglobal%s -m shell -a "tail -n 5 /usr/owglobal/%s/logs/logs"' %(serverid,serverport),
+                  '/bin/proxychains /usr/local/python27/bin/ansible owglobal%s -m shell -a "tail -n 5 /usr/owglobal/%s/logs/logs"' %(serverid,serverport),
                   stdout=PIPE,stderr=STDOUT,shell=True)
         for line in iter(p.stdout.readline,""):
             myfile.write(line)

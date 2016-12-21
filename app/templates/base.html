@@ -13,6 +13,20 @@
 {% block scripts %}
     {{ super() }}
     <script src="{{ url_for('static',filename='js/mydefine.js',_external=True) }}"></script>
+    <script src="{{ url_for('static',filename='js/clipboard.js',_external=True) }}"></script>
     <!--<script src="{{ url_for('static',filename='js/bootstrap.min.js',_external=True) }}"></script>-->
     <!--<script src="{{ url_for('static',filename='css/bootstrap.min.css',_external=True)}}"></script>-->
+
+        <script>
+    var clipboard = new Clipboard('.btn');
+
+    clipboard.on('success', function(e) {
+    	alert("文字已复制到剪贴板中");
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
 {% endblock %}

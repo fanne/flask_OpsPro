@@ -19,6 +19,7 @@ class Config(object):
     PATCH_LOGFILE = LOGDIR + 'owpatch_log.text'
     PATCH_OWGLOBAL_LOGFILE = LOGDIR + 'owGlobal_patch_log.text'
     PATCH_OWCROSS_LOGFILE = LOGDIR + 'owCross_patch_log.text'
+    ADDSERVER_LOGFILE = LOGDIR + 'owAddserver_log.text'
 
 
     @staticmethod

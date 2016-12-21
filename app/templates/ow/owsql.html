@@ -46,7 +46,9 @@
             </form>
 
             <div class="panel panel-default" style="margin-top: 40px">
-                <div class="panel-heading">Search Result</div>
+                <div class="panel-heading">
+                    <button type="button" class="btn btn-info" data-clipboard-action="copy" data-clipboard-target=".panel-body">复制查询结果</button>
+                </div>
                     <div class="panel-body">
                     <h4 style="color: darkblue">执行的语句：{{ cmdsql }}</h4>
                     {% if sqldic %}
