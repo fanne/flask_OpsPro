@@ -105,7 +105,7 @@ def addOw():
 
             #异步添加新服
             app = current_app._get_current_object()
-            ThreadAddServer(app,owserverform.id.data,owserverform.port.data)
+            ThreadAddServer(app,owserverform.id.data,owserverform.port.data,owserverform.host.data)
 
 
             flash('add server complete')

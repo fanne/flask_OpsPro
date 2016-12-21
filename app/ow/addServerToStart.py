@@ -16,7 +16,7 @@ app = create_app('default')
 patch_logfile = app.config['ADDSERVER_LOGFILE']
 
 
-def addStartServer(app,serverid,serverport):
+def addStartServer(app,serverid,serverport,serverhost):
     with app.app_context():
         myfile = open(patch_logfile,"a",0)
 
@@ -44,10 +44,11 @@ def addStartServer(app,serverid,serverport):
             myfile.flush()
 
         myfile.write("添加并启动ow%s服完成.\n\n" %serverid)
+        myfile.write("新服启动日志查看：http://%s/log%s/logs" %(serverhost,serverport))
         myfile.close()
 
 
-def ThreadAddServer(app,serverid,serverport):
-    thr = Thread(target=addStartServer,args=[app,serverid,serverport])
+def ThreadAddServer(app,serverid,serverport,serverhost):
+    thr = Thread(target=addStartServer,args=[app,serverid,serverport,serverhost])
     thr.start()
     return thr
